@@ -23,16 +23,14 @@ Randomly selects a word and uses the Word constructor to store it
 Prompts the user for each guess and keeps track of the user's remaining guesses
 
 Start the Game
-
+![Default](/images/start with guess.PNG)
 
 Winning Game
-
+![Default](/images/correct game.PNG)
 
 Losing Game
 
-
-
-
+![Default](/images/losing game.PNG)
 
 Technologies used
 -Node.js 

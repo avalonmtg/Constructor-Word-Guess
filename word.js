@@ -23,7 +23,7 @@ function Word(words) {
                 correctLetter = true;
             }
         });
-        console.log(this)
+        console.log("\n" + this)
         return correctLetter
     }
     Word.prototype.correctGuess = function () {

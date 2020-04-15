@@ -43,7 +43,7 @@ function flowerGuess() {
     }
 
     this.getLetter = function () {
-        inquirer.prompt([
+        return inquirer.prompt([
             {
                 type: "input",
                 name: "guess",

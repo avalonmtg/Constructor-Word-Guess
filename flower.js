@@ -24,7 +24,7 @@ function flowerGuess() {
     this.guessLetter = function () {
         this.getLetter().then(function () {
             if (This.guessesLeft < 1) {
-                console.log("no more guesses" + This.currentWord.getAnswer())
+                console.log("no more guesses" +  This.currentWord.getAnswer())
                 This.start()
 
             }
@@ -51,7 +51,7 @@ function flowerGuess() {
             }
         ])
             .then(function(userGuess) {
-console.log("test");
+//console.log("test");
                 var correctGuess = This.currentWord.guessedLetter(userGuess.guess)
                 if (correctGuess === true) {
                     console.log("Correct Letter!")
@@ -59,7 +59,7 @@ console.log("test");
                 else {
                     This.guessesLeft--
                     console.log("\nIncorrect Guess\n")
-                    console.log(This.guessesLeft + "Amount of guesses left\n")
+                    console.log(This.guessesLeft  +  " Guesses left\n")
 
                 }
 
@@ -74,4 +74,3 @@ module.exports = flowerGuess;
 
 
 
-//mpt the user to each guess and counts users remaining guesses
